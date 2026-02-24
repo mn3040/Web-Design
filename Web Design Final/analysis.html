@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yankees Analysis - Bronx Bombers Media</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Bronx Bombers Media Logo" width="150" height="60">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="analysis.html" class="active">Analysis</a></li>
+                <li><a href="about.html">About/Contact</a></li>
+            </ul>
+        </nav>
+        <button id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Yankees Analysis</h1>
+            <p>Deep dives into stats, strategy, and team dynamics</p>
+        </section>
+
+        <section class="video-feature">
+            <h2>Featured Analysis</h2>
+            <div class="video-container">
+                <video controls width="800" height="450" poster="images/aaron-judge.jpg">
+                    <source src="media/hype.mp4" type="video/mp4">
+                    Your browser does not support the video element. Please update to a modern browser.
+                </video>
+                <div class="video-info">
+                    <h3>2025 Yankees Season Hype Video</h3>
+                    <p>Get ready for the 2025 season with our hype video, showcasing the Yankees' offseason moves and key players to watch.</p>
+                    <p class="video-date">Posted: May 1, 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="analysis-articles">
+            <h2>Statistical Breakdowns</h2>
+            <p>Explore our in-depth analysis of the Yankees' performance this season, focusing on key players and strategies.</p>
+            <article class="analysis-card" id="pitching-analysis">
+              <div class="analysis-header">
+                <h3>Pitching Revolution: Max Fried Anchors Yankees' Dominant Staff</h3>
+                <p class="date">May 6, 2025</p>
+              </div>
+              <div class="analysis-content">
+                <div class="analysis-text">
+                  <p>
+                    Since joining the Yankees, Max Fried has been a game-changer. With a 6-0 record and a 1.01 ERA, he's provided stability to a rotation plagued by injuries. The team remains undefeated in his starts, underscoring his impact.
+                  </p>
+          
+                  <h4>Key Performance Indicators</h4>
+                  <ul>
+                    <li>Team ERA: 3.12 (2nd in MLB)</li>
+                    <li>Team K/9: 10.8 (1st in AL)</li>
+                    <li>Team WHIP: 1.08 (1st in MLB)</li>
+                    <li>First-pitch strike rate: 72% (1st in MLB)</li>
+                  </ul>
+          
+                  <p>
+                    The Yankees have embraced advanced analytics, optimizing pitch sequencing and leveraging real-time data to enhance performance. Fried's leadership and the staff's adaptability have been pivotal in this transformation.
+                  </p>
+          
+                  <div class="stat-highlight">
+                    <div class="stat-item">
+                      <span class="stat-number">24%</span>
+                      <span class="stat-desc">Increase in swing-and-miss rate</span>
+                    </div>
+                    <div class="stat-item">
+                      <span class="stat-number">19%</span>
+                      <span class="stat-desc">Decrease in hard contact</span>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="analysis-image">
+                  <img src="images/player-spotlight.jpg" 
+                       srcset="images/player-spotlight.jpg 1x, images/player-spotlight@2x.jpg 2x" 
+                       alt="Max Fried pitching for the Yankees" 
+                       width="400" 
+                       height="267">
+                </div>
+
+                <p>
+                    <a href="https://nypost.com/2025/05/03/sports/max-fried-delivering-as-most-valuable-yankee-has-saved-them/" target="_blank" rel="noopener noreferrer">Source: New York Post</a>
+                </p>
+              </div>
+            </article>
+          
+            <article class="analysis-card" id="hitting-analysis">
+              <div class="analysis-header">
+                <h3>Power and Patience: The Yankees' Offensive Philosophy</h3>
+                <p class="date">May 6, 2025</p>
+              </div>
+              <div class="analysis-content">
+                <div class="analysis-image">
+                  <img src="images/hitting-analysis.webp" 
+                       srcset="images/hitting-analysis.webp 1x, images/hitting-analysis@2x.webp 2x" 
+                       alt="Yankees batter at the plate" 
+                       width="400" 
+                       height="267">
+                </div>
+          
+                <div class="analysis-text">
+                  <p>
+                    The Yankees' lineup balances traditional power with modern plate discipline. This approach has yielded impressive results in the 2025 season.
+                  </p>
+          
+                  <h4>Offensive Metrics</h4>
+                  <ul>
+                    <li>Runs per game: 5.8 (1st in AL)</li>
+                    <li>Team OBP: .352 (2nd in MLB)</li>
+                    <li>Home runs: 89 (1st in MLB)</li>
+                    <li>Walk rate: 11.2% (3rd in MLB)</li>
+                  </ul>
+          
+                  <p>
+                    Emphasizing both power and on-base skills, the Yankees have crafted a lineup capable of challenging any pitching staff.
+                  </p>
+          
+                  <div class="stat-highlight">
+                    <div class="stat-item">
+                      <span class="stat-number">42%</span>
+                      <span class="stat-desc">Hard-hit ball rate</span>
+                    </div>
+                    <div class="stat-item">
+                      <span class="stat-number">18%</span>
+                      <span class="stat-desc">Chase rate (lowest in MLB)</span>
+                    </div>
+                  </div>
+          
+                  <p>
+                    <a href="https://www.mlb.com/yankees/stats" target="_blank" rel="noopener noreferrer">Source: MLB.com</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+        </section>          
+
+
+        <section class="predictions">
+            <h2>2025 Season Predictions</h2>
+            <div class="predictions-container">
+                <div class="prediction-card" id="prediction-1">
+                    <h3>AL East Champions</h3>
+                    <div class="prediction-content">
+                        <p>The Yankees will win the AL East by 7+ games, finishing with the best record in the American League.</p>
+                        <div class="prediction-meter">
+                            <div class="prediction-fill" style="width: 85%;">85% Confidence</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="prediction-card" id="prediction-2">
+                    <h3>Multiple MVP Candidates</h3>
+                    <div class="prediction-content">
+                        <p>The Yankees will have two players finish in the top 5 of AL MVP voting for the first time since 2005.</p>
+                        <div class="prediction-meter">
+                            <div class="prediction-fill" style="width: 70%;">70% Confidence</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="prediction-card" id="prediction-3">
+                    <h3>October Glory</h3>
+                    <div class="prediction-content">
+                        <p>The Yankees will reach the World Series and bring home their 28th championship.</p>
+                        <div class="prediction-meter">
+                            <div class="prediction-fill" style="width: 60%;">60% Confidence</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="prediction-interaction">
+                <h3>What's your bold prediction?</h3>
+                <div class="prediction-options">
+                    <button class="prediction-button" data-prediction="option1">Yankees win 100+ games</button>
+                    <button class="prediction-button" data-prediction="option2">Yankees have 3+ All-Stars</button>
+                    <button class="prediction-button" data-prediction="option3">Yankees lead MLB in home runs</button>
+                </div>
+                <div class="prediction-result" id="prediction-result">
+                    <p>Click a prediction above to see how likely it is!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="audio-section">
+            <h2>Pinstripe Territory: a New York Yankees Podcast</h2>
+            <div class="audio-container">
+                <audio controls>
+                    <source src="media/yankees-podcast.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="audio-info">
+                    <h3>Episode 1: Are the Yankees Better or Worse in 2025?</h3>
+                    <p>Join us as we tune into Pinstripe Territory's take on the Yankees' offseason moves and how they stack up against the competition in the AL East.</p>
+                    <p class="audio-date">Posted: April 15, 2025</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Bronx Bombers Media Logo" width="100" height="40">
+                <p>Authentic Yankees coverage since 2025</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="analysis.html">Analysis</a></li>
+                    <li><a href="about.html">About/Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Twitter"><span class="social-icon twitter"></span></a>
+                    <a href="#" aria-label="Instagram"><span class="social-icon instagram"></span></a>
+                    <a href="#" aria-label="YouTube"><span class="social-icon youtube"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Bronx Bombers Media. All rights reserved. This is a student project.</p>
+            <p>Yankees and MLB logos and images used for educational purposes only.</p>
+        </div>
+    </footer>
+</body>
+</html>

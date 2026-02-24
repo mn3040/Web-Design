@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bronx Bombers Media - Yankees Fan Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Bronx Bombers Media Logo" width="150" height="60">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
+                <li><a href="about.html">About/Contact</a></li>
+            </ul>
+        </nav>
+        <button id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Authentic Yankees Takes. From the Bronx. For the Bronx.</h1>
+                <p>Your source for in-depth Yankees analysis, game recaps, and hot takes from a lifelong fan.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/yankee-stadium.jpg" 
+                     srcset="images/yankee-stadium.jpg 1x, images/yankee-stadium@2x.jpg 2x" 
+                     alt="Yankee Stadium at sunset" 
+                     width="800" 
+                     height="450">
+            </div>
+        </section>
+
+        <section class="featured-content">
+            <h2>Latest Yankees Coverage</h2>
+            <div class="content-grid">
+              <article class="news-card">
+                <img src="images/game-recap.jpg" 
+                     srcset="images/game-recap.jpg 1x, images/game-recap@2x.jpg 2x" 
+                     alt="Yankees celebrate a win" 
+                     width="400" 
+                     height="225">
+                <div class="card-content">
+                  <h3>Game Recap: Yankees Fall to Padres in Late-Inning Rally</h3>
+                  <p class="date">May 5, 2025</p>
+                  <p>Manny Machado and Xander Bogaerts led an eighth-inning comeback as the Padres edged the Yankees 4-3 at Yankee Stadium.</p>
+                  <a href="https://www.espn.com/mlb/team/_/name/nyy/new-york-yankees" target="_blank" class="read-more" rel="noopener noreferrer">Read Full Recap</a>
+                </div>
+              </article>
+              <article class="news-card">
+                <img src="images/gerrit-cole.jpg" 
+                     srcset="images/gerrit-cole.webp 1x, images/gerrit-cole@2x.webp 2x" 
+                     alt="Gerrit Cole pitching" 
+                     width="400" 
+                     height="225">
+                <div class="card-content">
+                  <h3>Player Spotlight: Gerrit Cole's 2024 Season Review</h3>
+                  <p class="date">November 17, 2024</p>
+                  <p>Despite early injury concerns, Cole delivered a solid performance in 2024, showcasing resilience and skill on the mound.</p>
+                  <a href="https://www.pinstripealley.com/2024/11/17/24297885/yankees-2024-roster-report-card-gerrit-cole-season-review-starting-rotation-elbow-injury" target="_blank" class="read-more" rel="noopener noreferrer">Read Analysis</a>
+                </div>
+              </article>
+              <article class="news-card">
+                <img src="images/yankees-history.jpg" 
+                     srcset="images/yankees-history.jpg 1x, images/yankees-history@2x.jpg 2x" 
+                     alt="Historic Yankees moment" 
+                     width="400" 
+                     height="225">
+                <div class="card-content">
+                  <h3>This Day in Yankees History: Memorable Moments</h3>
+                  <p class="date">April 30, 2025</p>
+                  <p>Reflecting on significant events in Yankees history, including walk-off victories and legendary player achievements.</p>
+                  <a href="https://www.yesnetwork.com/yankees/news/this-day-in-yankees-history-april-30" target="_blank" class="read-more" rel="noopener noreferrer">Explore History</a>
+                </div>
+              </article>
+              <article class="news-card">
+                <img src="images/prospects.jpg" 
+                     srcset="images/prospects.webp 1x, images/prospects@2x.webp 2x" 
+                     alt="Yankees prospects in training" 
+                     width="400" 
+                     height="225">
+                <div class="card-content">
+                  <h3>Future Pinstripes: Top Yankees Prospects to Watch</h3>
+                  <p class="date">May 6, 2025</p>
+                  <p>Highlighting the Yankees' top prospects, including George Lombard Jr. and Spencer Jones, as they rise through the ranks.</p>
+                  <a href="https://www.pinstripealley.com/2025/5/6/24424483/yankees-prospects-minors-george-lombard-spencer-jones-elmer-rodriguez-cruz-bryce-cunningham" target="_blank" class="read-more" rel="noopener noreferrer">Read Report</a>
+                </div>
+              </article>
+          
+            </div>
+          </section>
+          
+        <section class="player-spotlight" id="player-spotlight">
+            <h2>Player Spotlight</h2>
+            <div class="spotlight-container">
+                <div class="spotlight-image">
+                    <img src="images/aaron-judge.jpg" 
+                        srcset="images/aaron-judge.jpg 1x, images/aaron-judge@2x.jpg 2x"
+                        alt="Aaron Judge" 
+                        width="300" 
+                        height="400" 
+                        id="spotlight-player-image">
+                </div>
+                <div class="spotlight-info">
+                    <h3 id="spotlight-player-name">Aaron Judge</h3>
+                    <p id="spotlight-player-position">Right Field | #99 | 2025 Season</p>
+                    <div class="stats-container">
+                        <div class="stat">
+                            <span class="stat-label">AVG</span>
+                            <span class="stat-value" id="stat-avg">.414</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">HR</span>
+                            <span class="stat-value" id="stat-hr">11</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">RBI</span>
+                            <span class="stat-value" id="stat-rbi">33</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">OPS</span>
+                            <span class="stat-value" id="stat-ops">1.262</span>
+                        </div>
+                    </div>
+                    <div class="player-selector">
+                        <button class="player-button active" data-player="judge">Judge</button>
+                        <button class="player-button" data-player="stanton">Stanton</button>
+                        <button class="player-button" data-player="cole">Cole</button>
+                    </div>
+                    <div class="spotlight-bio" id="spotlight-bio">
+                        <p>Aaron Judge is off to a historic start in the 2025 season, leading the majors in batting average and OPS. His refined approach at the plate has resulted in a career-low strikeout rate and increased contact, solidifying his status as a premier hitter.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hot-takes">
+            <h2>Hot Take of the Week</h2>
+            <div class="hot-take-container" id="hot-take-container">
+                <div class="hot-take-content">
+                    <h3>Yankees Will Win 105+ Games This Season</h3>
+                    <p>Despite the competitive AL East, the Yankees' balanced roster and improved pitching staff will lead them to their best regular season record since 1998.</p>
+                    <button id="reveal-comments" class="hot-take-button">Share Your Thoughts</button>
+                </div>
+                <div class="comments-section" id="comments-section">
+                    <h4>What's your take?</h4>
+                    <form id="comment-form">
+                        <textarea placeholder="Share your thoughts on this hot take..." rows="4"></textarea>
+                        <button type="submit">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Bronx Bombers Media Logo" width="100" height="40">
+                <p>Authentic Yankees coverage since 2025</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="analysis.html">Analysis</a></li>
+                    <li><a href="about.html">About/Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Twitter"><span class="social-icon twitter"></span></a>
+                    <a href="#" aria-label="Instagram"><span class="social-icon instagram"></span></a>
+                    <a href="#" aria-label="YouTube"><span class="social-icon youtube"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Bronx Bombers Media. All rights reserved. This is a student project.</p>
+            <p>Yankees and MLB logos and images used for educational purposes only.</p>
+        </div>
+    </footer>
+</body>
+</html>
